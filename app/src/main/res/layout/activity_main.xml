@@ -15,20 +15,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="2"
             android:gravity="center">
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:id="@+id/elsoKocka"/>
+                android:id="@+id/elsoKocka"
+                android:src="@drawable/kocka1"/>
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:id="@+id/masodikKocka"/>
+                android:id="@+id/masodikKocka"
+                android:src="@drawable/kocka1"/>
 
         </LinearLayout>
 
@@ -37,28 +36,28 @@
             android:layout_height="match_parent"
             android:text="1 Kocka"
             android:textSize="20sp"
-            android:id="@+id/egyKocka"/>
+            android:id="@+id/btnEgyKocka"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="2 Kocka"
             android:textSize="20sp"
-            android:id="@+id/ketKocka"/>
+            android:id="@+id/btnKetKocka"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Dobás"
             android:textSize="20sp"
-            android:id="@+id/Dobas"/>
+            android:id="@+id/btnDobas"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Reset"
             android:textSize="20sp"
-            android:id="@+id/reset"/>
+            android:id="@+id/btnReset"/>
 
         <TextView
             android:layout_width="match_parent"
